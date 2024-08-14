@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+}
+.wrapper {
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(images/weather.webp);
+  color: #e9e500;
+  padding: 10px;
+}
+#weather-form {
+  padding-top: 20px;
+}
+
+input {
+  width: 200px;
+  line-height: 30px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #e9e500;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #333;
+  color: #e9e500;
+}
+
+#weather-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.weather-widget {
+  margin: 10px;
+  width: 300px;
+  background-color: #969696;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 238, 0, 0.54);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+  border: 1px solid rgba(43, 43, 43, 1);
+}
+
+.weather-widget__date {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.weather-widget__main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.weather-widget__location {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-widget__city-name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.weather-widget__coordinates {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.weather-widget__icon {
+  width: 25px;
+}
+.larg {
+  width: 50px;
+}
+
+.weather-widget__current {
+  display: flex;
+  align-items: center;
+}
+
+.weather-widget__temperature {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.weather-widget__details {
+  margin-bottom: 10px;
+}
+
+.weather-widget__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.weather-widget__temperature-range {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.weather-widget__temp-values {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-widget__wind,
+.weather-widget__clouds,
+.weather-widget__humidity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.weather-widget__sun-times {
+  display: flex;
+  justify-content: space-between;
+}

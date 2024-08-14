@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Выджет Погоды</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Выджет Погоды</h1>
+        <form id="weather-form">
+          <input
+            type="text"
+            id="city-input"
+            placeholder="Введіть місто"
+            required
+          />
+          <button type="submit">Добавить виджет</button>
+        </form>
+      </header>
+      <div id="weather-info"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
